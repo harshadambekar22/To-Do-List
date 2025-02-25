@@ -1,0 +1,110 @@
+#diva{
+
+    background-color: rgb(224, 216, 216);
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    width: 350px;
+    max-width: 90%;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-style:groove;
+    border-color: #000000;
+    border-width: 5px;
+
+}
+body {
+    background-image: url("https://images.pexels.com/photos/87812/pexels-photo-87812.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.container {
+    background: rgb(179, 142, 142);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    border-style: groove;
+    border-color: #000000;
+    border-width: 5px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 100px;
+    background-blend-mode: color-burn;
+    border-style: double;
+    border-color:rgb(0, 0, 0) ;
+    border-width: 5px;
+}
+
+button {
+    padding: 10px;
+    background: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-style: double;
+    border-width: 5px;
+    border-color: #000000;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #c8c6c6;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-family: fantasy;
+    border-style: double;
+    border-color: #000000;
+    border-width: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+/* h1 {
+    background-color: white;
+    background-blend-mode:color-burn;
+    color: #000000;
+} */ 
+.checkbox {
+    padding: 10px;
+    background: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-style: double;
+    border-width: 5px;
+    border-color: #000000;
+}
+
+.checkbox:hover {
+    color: #ffffff; /* Darker green on hover */
+}
+
+ 
